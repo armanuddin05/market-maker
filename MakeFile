@@ -1,0 +1,13 @@
+CXX = g++
+CXXFLAGS = -std=c++17 -O2 -Wall -Iinclude
+SRCDIR = source
+SOURCES = $(shell find $(SRCDIR) -name '*.cpp')
+TARGET = market-maker
+
+$(TARGET): $(SOURCES)
+	$(CXX) $(CXXFLAGS) $(SOURCES) -o $(TARGET)
+
+clean:
+	rm -f $(TARGET)
+
+.PHONY: clean
