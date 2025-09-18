@@ -23,7 +23,7 @@ Stock trading at $100.00
 └─ Profit: 3¢ per share captured
 ```
 
-## 🏗️ Architecture
+## Architecture
 
 ### Core Components
 
@@ -48,7 +48,7 @@ Market Maker Engine
 - **High Performance**: Lock-free data structures, memory pooling, microsecond latency
 - **Comprehensive Testing**: Unit tests, integration tests, backtesting framework
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -110,7 +110,7 @@ Edit `config/market_maker_config.json`:
 
 ## Development Roadmap
 
-### Phase 1: Core Infrastructure ⏳
+### Phase 1: Core Infrastructure
 **Goal: Basic data flow and foundation**
 
 - [ ] Order and Position data structures
@@ -156,7 +156,7 @@ Edit `config/market_maker_config.json`:
 - [ ] Real-time monitoring dashboard
 - [ ] Memory and latency optimization
 
-### Phase 6: Testing & Validation ✅
+### Phase 6: Testing & Validation
 **Goal: Reliability assurance**
 
 - [ ] Comprehensive unit test suite
@@ -192,7 +192,7 @@ cmake --build build --target test
 ./build/backtest --data data/historical_data.csv --config config/backtest.json
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 market-maker/
