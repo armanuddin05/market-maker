@@ -2,7 +2,7 @@
 
 A high-performance C++ implementation of an institutional-grade market making algorithm featuring dynamic spread adjustment, inventory management, adverse selection protection, and comprehensive risk controls.
 
-## 🎯 Strategy Overview
+## Strategy Overview
 
 This project implements a **two-sided liquidity provision strategy** that:
 
@@ -113,10 +113,10 @@ Edit `config/market_maker_config.json`:
 ### Phase 1: Core Infrastructure ⏳
 **Goal: Basic data flow and foundation**
 
-- [x] Order and Position data structures
-- [x] OrderBook implementation with price levels
-- [x] MarketDataHandler for tick data processing
-- [x] Configuration loading and logging setup
+- [ ] Order and Position data structures
+- [ ] OrderBook implementation with price levels
+- [ ] MarketDataHandler for tick data processing
+- [ ] Configuration loading and logging setup
 - [ ] Market data feed simulation
 - [ ] Basic quote placement logic
 
