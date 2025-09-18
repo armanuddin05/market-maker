@@ -4,7 +4,7 @@ A high-performance C++ implementation of an institutional-grade market making al
 
 ## Strategy Overview
 
-This project implements a **two-sided liquidity provision strategy** that:
+This engine implements a **two-sided liquidity provision strategy** that:
 
 - Continuously quotes **bid and ask prices** around current market price
 - Captures **bid-ask spread** as profit when traders hit both sides
