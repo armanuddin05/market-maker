@@ -108,7 +108,7 @@ Edit `config/market_maker_config.json`:
 ./build/market_maker --data data/sample_market_data.csv --backtest
 ```
 
-## 📊 Development Roadmap
+## Development Roadmap
 
 ### Phase 1: Core Infrastructure ⏳
 **Goal: Basic data flow and foundation**
@@ -120,7 +120,7 @@ Edit `config/market_maker_config.json`:
 - [ ] Market data feed simulation
 - [ ] Basic quote placement logic
 
-### Phase 2: Market Making Logic 🔄
+### Phase 2: Market Making Logic 
 **Goal: Two-sided quoting system**
 
 - [ ] Fixed spread calculation
@@ -129,7 +129,7 @@ Edit `config/market_maker_config.json`:
 - [ ] Basic MarketMaker main loop
 - [ ] Quote generation around mid-price
 
-### Phase 3: Inventory Management 📈
+### Phase 3: Inventory Management 
 **Goal: Smart position management**
 
 - [ ] InventoryManager position tracking
@@ -138,7 +138,7 @@ Edit `config/market_maker_config.json`:
 - [ ] OrderManager lifecycle handling
 - [ ] Position limit enforcement
 
-### Phase 4: Risk & Protection 🛡️
+### Phase 4: Risk & Protection 
 **Goal: Loss prevention systems**
 
 - [ ] Real-time P&L calculation
@@ -147,7 +147,7 @@ Edit `config/market_maker_config.json`:
 - [ ] Market stress response
 - [ ] Circuit breaker implementation
 
-### Phase 5: Performance & Analytics 🚀
+### Phase 5: Performance & Analytics 
 **Goal: Production optimization**
 
 - [ ] Performance profiling and optimization
@@ -165,7 +165,7 @@ Edit `config/market_maker_config.json`:
 - [ ] Stress testing scenarios
 - [ ] Performance benchmarking
 
-## 📈 Performance Metrics
+## Performance Metrics
 
 Target performance characteristics:
 
@@ -177,7 +177,7 @@ Target performance characteristics:
 | Fill Rate | 60-80% | Percentage of quotes that get filled |
 | Sharpe Ratio | > 2.0 | Risk-adjusted returns in backtesting |
 
-## 🧪 Testing
+## Testing
 
 ```bash
 # Run all tests
@@ -222,7 +222,7 @@ market-maker/
     └── source/                      # Unit and integration tests
 ```
 
-## 🤝 Contributing
+## Contributing
 
 This is a portfolio project demonstrating quantitative finance and C++ engineering skills. Key areas of focus:
 
@@ -231,7 +231,7 @@ This is a portfolio project demonstrating quantitative finance and C++ engineeri
 - **Market Microstructure**: Order book mechanics, market making, adverse selection
 - **Software Engineering**: Modern C++, testing, documentation, architecture
 
-## 📚 References & Learning Resources
+## References & Learning Resources
 
 - **Market Making Theory**: "Market Liquidity: Theory, Evidence, and Policy" by Foucault, Pagano, Röell
 - **Algorithmic Trading**: "Algorithmic Trading: Winning Strategies and Their Rationale" by Chan
@@ -239,11 +239,11 @@ This is a portfolio project demonstrating quantitative finance and C++ engineeri
 - **C++ Performance**: "Optimized C++" by Halpern
 - **Quantitative Finance**: "Paul Wilmott on Quantitative Finance" by Wilmott
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🏢 Professional Context
+## Professional Context
 
 This project demonstrates skills relevant to roles at:
 - **Market Making Firms**: Citadel Securities, Virtu Financial, Jump Trading
